@@ -1,10 +1,14 @@
 import React from 'react'
 import logo from '../Logo.svg'
 
-return(
-    <>
-        <header>
-            <img src={logo} alt="logo" />
-        </header>
-    </>
-)
+function Header(){
+    return(
+        <>
+            <header>
+                <img src={logo} alt="logo" />
+            </header>
+        </>
+    )
+}
+
+export default Header;
