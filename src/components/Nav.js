@@ -3,7 +3,7 @@ function Nav(){
     return(
         <>
             <nav>
-                <ul>
+                <ul className="nav-links">
                     <li><a href='/'>HOME</a></li>
                     <li><a href='/about'>ABOUT</a></li>
                     <li><a href='/menu'>MENU</a></li>

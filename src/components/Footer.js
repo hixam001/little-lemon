@@ -1,7 +1,9 @@
 import React from 'react'
 function Footer(){
     return(
-        <footer></footer>
+        <footer>
+            <section className="container grid-4"></section>
+        </footer>
     )
 }
 
